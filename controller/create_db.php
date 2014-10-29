@@ -1,7 +1,7 @@
 <?php
 require_once(__DIR__ . "/../model/database.php");
 
-$connection = new mysqli($host, $username, $password);
+$connection = new mysqli($host, $username, $password);//string variables
 
 if($connection ->connect_error) {
 	die("Error: " . $connection->connect_error);
@@ -20,7 +20,7 @@ if($query) {//to output a string
  }
 }
 else{// to execute the databse to be completed
-	echo "Database already exists.";
+	echo "Database Already Exists.";
 }
 //whole code only runs when the database exists
 
