@@ -19,11 +19,18 @@ if($query) {//to output a string
 	echo "Successfully created database " . $database;
  }
 }
-else{// to execute the databse to be completed
+else{// makes it execute the database to be completed
 	echo "Database Already Exists.";
-}
-//whole code only runs when the database exists
+}//whole code only runs when the database exists
 
+$query = $connection->query("CREATE TABLE posts ("//create a table in local 
+	. "id int(11) NOT NULL AUTO_INCREMENT," //
+	. "title varchar(255) NOT NULL,"//the title 
+	. "post text NOT NULL,"//posts the text on the website 
+	. "PRIMARY KEY (id))");//the id in primary key 
+if($query) {
+	echo "Successfully create table: posts";//shows or echos the text on the website
+}
 
 $connection->close();//closes the connection or the rest of the code
 
