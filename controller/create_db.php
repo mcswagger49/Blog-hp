@@ -24,7 +24,7 @@ else{// makes it execute the database to be completed
 }//whole code only runs when the database exists
 
 $query = $connection->query("CREATE TABLE posts ("//create a table in local 
-	. "id int(11) NOT NULL AUTO_INCREMENT," //
+	. "id int(11) NOT NULL AUTO_INCREMENT," //autoincrement is going to give it a name in localhost automaticlly
 	. "title varchar(255) NOT NULL,"//the title 
 	. "post text NOT NULL,"//posts the text on the website 
 	. "PRIMARY KEY (id))");//the id in primary key 
