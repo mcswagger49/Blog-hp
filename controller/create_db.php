@@ -16,11 +16,11 @@ if(!$exists) {// performs commands to exist if it doesn't exist
 $query = $connection->query("CREATE DATABASE $database");// a string
 // a statement to tells $database to create a database.
 if($query) {//to output a string
-	echo "Successfully created database " . $database;
+	echo "<p>Successfully created database:" . $database;"</p>";
  }
 }
 else{// makes it execute the database to be completed
-	echo "Database Already Exists.";
+	echo "<p>Database Already Exists.</p>";
 }//whole code only runs when the database exists
 
 $query = $connection->query("CREATE TABLE posts ("//create a table in local 
@@ -29,9 +29,11 @@ $query = $connection->query("CREATE TABLE posts ("//create a table in local
 	. "post text NOT NULL,"//posts the text on the website 
 	. "PRIMARY KEY (id))");//the id in primary key 
 if($query) {
-	echo "Successfully create table: posts";//shows or echos the text on the website
+	echo "<p>Successfully create table: posts</p>";//shows or echos the text on the website
+}
+else {
+	echo "<p>$connection->error</p>";//makes php tgs as real html tags
 }
 
 $connection->close();//closes the connection or the rest of the code
 
-?>
