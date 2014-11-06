@@ -1,2 +1,2 @@
 <?php
-  $path = "/Blog/";//a new path variable 
+  $path = "/Blog/";//a new path variable
