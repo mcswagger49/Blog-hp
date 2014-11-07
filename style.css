@@ -1,14 +1,25 @@
 body{
-	font-family: 'Ubuntu Condensed', sans-serif;
+  font-family: 'Ubuntu Condensed', sans-serif;
   position: relative;
   background-size: 1366px 1060px;
  background-repeat:no-repeat;
  padding:0;
  margin:0;
- background-image:url(http://www.mrwallpaper.com/wallpapers/space-nebula-stars-1366x768.jpg);
+ background-image:url(http://4.bp.blogspot.com/-RJDk5SF8tmQ/TniLINkhCOI/AAAAAAAAA_E/UaC9pSSfVYM/s1600/cool_3d_space_wallpapers+3.jpg);
+}
+style{
+  text-align: center;
+}
+h1{
+  text-align: center;
+ font-family: 'Ubuntu Condensed', sans-serif;
+ border:5px double orange; 
+ padding:5px;
+ color: lime;
+  background-image:url(http://en.spaceengine.org/_ph/3/82685745.jpg);
 }
 nav a{
-	font-family: 'Ubuntu Condensed', sans-serif;
+  font-family: 'Ubuntu Condensed', sans-serif;
    color: lime;
 }
 @media(max-width: 1580px) {

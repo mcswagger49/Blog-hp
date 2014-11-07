@@ -1,5 +1,5 @@
 <h1>Create Blog Post</h1><!-- Header for the blog post -->
-
+	
 <form>
 	<div>
 		<label for="title">Title: </label><!-- labels the title -->
