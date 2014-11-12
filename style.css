@@ -5,9 +5,14 @@ body{
  background-repeat:no-repeat;
  padding:0;
  margin:0;
- background-image:url(http://img.wallpaperstock.net:81/outer-space-wallpapers_33924_1920x1080.jpg);
+ background-image:url(http://www.iwallpapersfive.com/wp-content/uploads/2013/12/space-wallpaper-1920x1080-nebula-cyan-space-nebula-wallpaper.jpg);
 }
-style{
+div{
+  position: relative;
+  margin: 0;
+  padding: 0;
+  color: orange;
+  font-family: 'Ubuntu Condensed', sans-serif;
   text-align: center;
 }
 h1{
@@ -15,8 +20,8 @@ h1{
  font-family: 'Ubuntu Condensed', sans-serif;
  border:5px double orange; 
  padding:5px;
- color: black;
-  background-image:url(http://best-wallpaper.net/wallpaper/1920x1080/1107/Starry-space_1920x1080.jpg);
+ color: orange;
+  background-image:url(http://wallpapersblog.org/wp-content/uploads/space-dust-warm-colors-full-hd-1080p-wallpaper-star-field.jpg);
 }
 nav a{
   font-family: 'Ubuntu Condensed', sans-serif;
