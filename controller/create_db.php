@@ -1,5 +1,5 @@
 <?php
-require_once(__DIR__ . "/../model/database.php");
+require_once(__DIR__ ."/../model/config.php");//changed to config file because of the new Database class
 
 $connection = new mysqli($host, $username, $password);//string variables
 
