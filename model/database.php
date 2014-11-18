@@ -13,12 +13,19 @@ public function __construct($host, $username, $password, $database) {//the local
       $this->database = $database;//passing the infomation to the global info.
 
 }
-public function openConnection() {//opens the connection variables
+public function openConnection() {//opens the connection in my database
+      $this->connection = new mysqli($this->host, $this->username, $this->password, $this->database);
 
+    if  ($this->$connection ->connect_error) {//if statement is checking if there was a connection error
+	    die("<p>Error: " . $this->connection->connect_error . "</p>");
+	}
 }
 
-public function closeConnection() {//closes the connection variables
+public function closeConnection() {//closes the connection in my database 
+	if(isset($this->connection)) {//it is checking the variables has its set or not 
+	 $this->connection->close();//checking the closed connection
 
+	}
 }
 
 public function query($string) {//calls the variable string into the query

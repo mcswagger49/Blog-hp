@@ -1,9 +1,9 @@
 <?php
 require_once(__DIR__ ."/../model/config.php");//changed to config file because of the new Database class
 
-$connection = new mysqli($host, $username, $password);//string variables
+$connection = new mysqli($host, $username, $password);//creates the new connection w/ string variables
 
-if($connection ->connect_error) {
+if($connection ->connect_error) {//if statement is checking if there was a connection error
 	die("<p>Error: " . $connection->connect_error . "</p>");
 }
 else { 
