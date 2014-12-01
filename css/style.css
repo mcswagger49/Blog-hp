@@ -1,4 +1,3 @@
-
 @import url(http://fonts.googleapis.com/css?family=Chango);
 
 body {
@@ -12,15 +11,14 @@ body {
   /* make our image 100% width */
   background-size:cover; 
 }
+
 h1 {
  text-align: center;
  font-family: 'Ubuntu Condensed', sans-serif;
  border:5px double blue; 
  padding:5px;
- color: lime;
-  background-image:url(http://en.spaceengine.org/_ph/3/82685745.jpg);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+ color: blue;
+ background-image:url(http://en.spaceengine.org/_ph/3/82685745.jpg);
 
   /* set the background gradient */
   background:url(http://scotch.io/wp-content/uploads/2014/11/galaxies.jpg);
@@ -31,7 +29,7 @@ h1 {
 }
 
 /* create the animation */
-@-webkit-keyframes moving {
+ @-webkit-keyframes moving {
   0% {
     background-position: 0 0;
   }
