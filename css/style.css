@@ -1,20 +1,44 @@
-body{
-	font-family: 'Ubuntu Condensed', sans-serif;
+
+@import url(http://fonts.googleapis.com/css?family=Chango);
+
+body {
+  padding-top:50px;
+  background-image:url(http://www.wallpedes.com/resize/1280x1024/deep/deep-blue-space-iphone-wallpaper-wallpaper-deep-space-iphone-blue-color-garry-kasparov.jpg);
+  font-family: 'Ubuntu Condensed', sans-serif;
   position: relative;
   background-size: 1366px 1060px;
- background-repeat:no-repeat;
- padding:0;
- margin:0;
- background-image:url(http://www.wallpedes.com/resize/1280x1024/deep/deep-blue-space-iphone-wallpaper-wallpaper-deep-space-iphone-blue-color-garry-kasparov.jpg);
+  background-repeat:no-repeat;
+  margin:0;
+  /* make our image 100% width */
+  background-size:cover; 
 }
-h1{
-	text-align: center;
+h1 {
+ text-align: center;
  font-family: 'Ubuntu Condensed', sans-serif;
- border:5px double orange; 
+ border:5px double blue; 
  padding:5px;
  color: lime;
   background-image:url(http://en.spaceengine.org/_ph/3/82685745.jpg);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+  /* set the background gradient */
+  background:url(http://scotch.io/wp-content/uploads/2014/11/galaxies.jpg);
+  background-size:cover;
+
+  /* set the animation */
+  -webkit-animation:moving 20s ease infinite;
 }
+
+/* create the animation */
+@-webkit-keyframes moving {
+  0% {
+    background-position: 0 0;
+  }
+  100% {
+    background-position: 0 500px;
+  }
+}​
 nav a{
 	font-family: 'Ubuntu Condensed', sans-serif;
    color: lime;
