@@ -6,6 +6,8 @@ private $host;
 private $username;  
 private $password; 
 private $database; 
+public  $error;//public makes it easier to use publiclly 
+//variable error to fix other errors
 
 public function __construct($host, $username, $password, $database) {//the local infomation into the function taking the function 
       $this->host = $host;//"this" keyword
@@ -56,8 +58,12 @@ public function query($string) {//calls the variable string into the query
 
        $query = $this->connection->query($string);//uses the string to call into the query
 
+       if(!$query) {
+            $error = $this->connection->error;//assigning
+       }
+
        $this->closeConnection();
 
-       return $query;
+       return $query;//returns the variable querys
 	}
 }

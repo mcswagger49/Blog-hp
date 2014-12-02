@@ -1,4 +1,4 @@
-	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
   	<link rel="stylesheet"  media="screen and (min-width: 0px)" href="css/small.css">
       <link rel="stylesheet"  media="screen and (min-width: 1000px)" href="css/medium.css">
       <link rel="stylesheet"  media="screen and (min-width: 1400px)" href="css/large.css">

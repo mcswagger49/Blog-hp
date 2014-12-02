@@ -1,7 +1,7 @@
 <?php
 	require_once(__DIR__ . "/../model/config.php"); //changed to config file because of the new Database class
 
-	$query = $connection->query("CREATE TABLE posts ("//create a table in local 
+	$query = $_SESSION["connection"]->query("CREATE TABLE posts ("//create a table in local 
 		. "id int(11) NOT NULL AUTO_INCREMENT," //autoincrement is going to give it a name in localhost automaticlly
 		. "title varchar(255) NOT NULL,"//the title 
 		. "post text NOT NULL,"//posts the text on the website 
@@ -10,6 +10,5 @@
 		echo "<php>Successfully create table: posts</p>";//shows or echos the text on the website
 }
 	else {
-		echo "<p>$connection->error</p>";
+		echo "<p>" . $_SESSION["connection"]->error. "</p>";
 }
-?>
