@@ -18,4 +18,6 @@
 	<div>
 		<button type="submit">Submit</button><!-- Creates the submit butten-->
 	</div>
+
+	<article> </article>
 </form>
