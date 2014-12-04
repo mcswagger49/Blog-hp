@@ -5,6 +5,7 @@
 		. "id int(11) NOT NULL AUTO_INCREMENT," //autoincrement is going to give it a name in localhost automaticlly
 		. "title varchar(255) NOT NULL,"//the title 
 		. "post text NOT NULL,"//posts the text on the website 
+		. "DateTime datetime NOT NULL,"//helps posts the datetime on the webpage.
 		. "PRIMARY KEY (id))");//the id in primary key 
 
 	if($query) {
