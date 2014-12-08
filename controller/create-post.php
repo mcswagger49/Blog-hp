@@ -10,7 +10,7 @@
  
  	if ($query) {
  	   echo "<p>Successfully inserted post: $title</p>";//echos out the post onto the page
-       echo "Posted on: " . $date->format("M/D/Y") . " at " . $time->format("g:i");//shows the datetime on the website
+       echo "Posted on: " . $date->format("M/D/Y") . " at " . $time->format("G:i");//shows the datetime on the website
  	} 
  	else {
  		echo "<p>" . $_SESSION["connection"]->error . "</p>";//fixes the connection to not error

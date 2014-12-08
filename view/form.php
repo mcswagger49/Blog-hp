@@ -1,10 +1,11 @@
 <?php
+
 	require_once(__DIR__ . "/../model/config.php");
 ?>
 
 <h1>Create Blog Post</h1><!-- Header for the blog post -->
 	
-<form method="post" action="<?php echo $path ."controller/create-post.php"; ?>"> 
+<form method="post" action="<?php echo $path ."controller/create-post.php"; ?>"><!--registering not using create-post not making one. -->
 	<div>
 		<label for="title">Title: </label><!-- labels the title -->
 		<input type="text" name="title" />
@@ -19,5 +20,4 @@
 		<button type="submit">Submit</button><!-- Creates the submit butten-->
 	</div>
 
-	<article> </article>
 </form>
