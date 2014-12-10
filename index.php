@@ -1,4 +1,4 @@
-<html  lang="en" class="no-js">
+<html>
 	<head>
 	<meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
@@ -11,13 +11,9 @@
     body { font: 18px/1.5 'Ubuntu Condensed', sans-serif; color: black; }
     code { color: black; font-family: 'Ubuntu Condensed', sans-serif;}
     a { color: #178DB1; }
-    .container { margin: 0 auto; max-width: 960px; }
-    #info + .readmore-js-toggle { padding-bottom: 1.5em; border-bottom: 1px solid #999; font-weight: bold;}
-    #demo { padding: 0 10%; }
   </style>
 	</head>
 	<body>
-
 <?php
 	require_once(__DIR__ . "/view/header.php");//requires the header
 	require_once(__DIR__ . "/view/navigation.php");//requires and shows the link in the webpage
