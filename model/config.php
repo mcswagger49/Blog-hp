@@ -1,7 +1,8 @@
 <?php
 //stores infomation 
 	require_once(__DIR__ . "/Database.php");
-	session_start();
+	session_regenerate_id(true);//gives a session a id and deletes the old session
+	session_start();//starts session
 
     $path = "/Blog/";//a new path variable
 
