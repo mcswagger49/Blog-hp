@@ -11,7 +11,14 @@ body {
   /* make our image 100% width */
   background-size:cover; 
 }
-
+div{
+  position: relative;
+  margin: 8px;
+  padding: 0px;
+  color: #F75814;
+  font-family: 'Ubuntu Condensed', sans-serif;
+  text-align: left;
+}
 h1 {
  text-align: center;
  font-family: 'Ubuntu Condensed', sans-serif;
