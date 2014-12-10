@@ -1,3 +1,5 @@
+<html>
+<body>
 <?php
  	require_once(__DIR__ ."/../model/config.php");//calling the config file out of the folder
 
@@ -15,4 +17,6 @@
  	else {
  		echo "<p>" . $_SESSION["connection"]->error . "</p>";//fixes the connection to not error
 	 }
- 
+ ?>
+</body>
+</html>
