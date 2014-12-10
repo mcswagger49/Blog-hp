@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html  lang="en" class="no-js">
 	<head>
 	<meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
@@ -18,7 +18,7 @@
   </style>
 	<title></title>
 </head>
-<body>
+<body class="home blog">
 
 
 
