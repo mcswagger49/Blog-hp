@@ -17,11 +17,39 @@ img{
 }
 div{
   position: relative;
-  margin: 8px;
-  padding: 0px;
+  margin: 5px;
+  padding: 5px;
   color: #F75814;
   font-family: 'Ubuntu Condensed', sans-serif;
   text-align: left;
+}
+li{
+   position: fixed;
+  margin: 0px;
+  padding: 0px;
+   border:2px double ; 
+  color: #F75814;
+  font-family: 'Ubuntu Condensed', sans-serif;
+  text-align: left;
+   background-image:url(http://en.spaceengine.org/_ph/3/82685745.jpg);
+
+  /* set the background gradient */
+  background:url(http://scotch.io/wp-content/uploads/2014/11/galaxies.jpg);
+  background-size:cover;
+
+  /* set the animation */
+  -webkit-animation:moving 20s ease infinite;
+}
+
+/* create the animation */
+ @-webkit-keyframes moving {
+  0% {
+    background-position: 0 0;
+  }
+  100% {
+    background-position: 0 500px;
+  }
+}​
 }
 h1 {
  text-align: center;
@@ -49,10 +77,6 @@ h1 {
   }
 }​
 
-nav a{
-  font-family: 'Ubuntu Condensed', sans-serif;
-   color: lime;
-}
 @media(max-width: 1580px) {
   html {
     font-size: 18px;
