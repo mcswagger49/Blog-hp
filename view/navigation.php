@@ -1,5 +1,11 @@
 <?php
-require_once(__DIR__ . "/../model/config.php");// requires the new file config.php 
+	require_once(__DIR__ . "/../model/config.php");// requires the new file config.php 
+	require_once(__DIR__ . "/../controller/login-verify.php");
+
+		if(authenticateUser())  {
+			header("Location: " . $path . "index.php");
+			die();//killing the program
+	}
 ?>
 <!DOCTYPE html>
 <html lang="en">
