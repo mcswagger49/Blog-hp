@@ -11,7 +11,10 @@ body{
    /* make our image 100% width */
   background-size:cover;
 }
-
+img{
+  padding: 21;
+  margin: 21;
+}
 div{
   position: relative;
   margin: 8px;
