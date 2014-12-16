@@ -59,7 +59,9 @@ h1 {
   }
 }​
 }
-
+.embed{
+  position: fixed;
+}
 @media(max-width: 1580px) {
   html {
     font-size: 18px;
