@@ -17,7 +17,6 @@
     #demo { padding: 0 10%; }
   </style>
 	<title>Welcome to My Blog</title>
-  <h1>Joshua's Blog</h1>
 </head>
 <body class="home blog">
 <embed src="http://localhost/Blog/music/Modestep-Sunlight.mp3" autostart="true" loop="false" align="right" width="160" height="65"></embed>
